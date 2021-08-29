@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <header>
+         <h1>Residencia de Mascotas</h1>
+
+         <img src="./assets/perro.jpeg" alt="perro">
+        
+    </header>
+
+   <main>
+       <h2>Perros y Gatos</h2>
+       <p>Ingresa informacion de tu mascota asi podremos ofecerte lo que mas se adapte a ella</p>
+
+       <form action="/1-forms/" method="get">
+
+        <h3>Ingrese sus datos</h3>
+
+        <label class="input-label"></label> Nombre:
+        <input type="text" id="Nombre" placeholder="Ingrese su nombre" maxlength="10" required/>
+
+        <label class="input-label"></label> Apellido:
+        <input type="text" id="Apellido" placeholder="Ingrese su apellido" maxlength="10" required/>
+
+        <label class="input-label"></label> DNI:
+        <input type="number" id="DNI" placeholder="Ingrese su DNI" maxlength="10" required/>
+
+        <br>
+        <br>
+
+        <label class="input-label"></label> Telefono:
+        <input type="number" id="Telefono" placeholder="Ingrese su Telefono" maxlength="10" required/>
+
+        <label class="input-label"></label> Email:
+        <input type="email" id="Email" placeholder="Ingrese su email" maxlength="25" required/>
+
+        <p>Fecha de Ingreso</p>
+        <Label>
+            <input type="date" name="Ingreso" id="Ingreso">
+        </Label>
+
+        <h3>Ingrese los datos de su mascota</h3>
+
+        <label class="input-label"></label> Nombre:
+        <input type="text" id="Nombre" placeholder="Ingrese su nombre" maxlength="10" required/>
+
+        <label class="input-label"></label> Edad:
+        <input type="number" id="Edad" placeholder="Ingrese su Edad" maxlength="10" required/>
+
+
+        <label class="input-label"></label> Sexo:
+        <select name="sexo" id="sexo">
+            
+            <option value="Hembra">Hembra</option> 
+            <option value="Macho">Macho</option>  
+        </select>
+
+         <p>Que tipo de mascota tiene?</p>
+
+        <label>
+            <input type="radio" name="MASCOTA" id="especie 1"> PERRO
+        
+            <input type="radio" name="MASCOTA" id="especie 2"> GATO
+
+        </label>
+
+        <p>Que tamaño tiene?</p>
+        
+        <label>
+        <select name="tamaño" id="tamaño">
+            <option value="Pequeño">Pequeño</option> 
+            <option value="Mediano">Mediano</option> 
+            <option value="Grande">Grande</option> 
+        </select>
+        </label>  
+
+        <p>De que se alimenta tu mascota</p>
+
+        <label>
+            <input type="checkbox" name="Pescado" value="Pescado"> Pescado
+            <input type="checkbox" name="Balanceado" value="Balanceado"> Balanceado
+            <input type="checkbox" name="Carne roja" value="Carne roja"> Carne roja
+            <input type="checkbox" name="Pollo" value="Pollo"> Pollo
+
+        </label>
+
+        <p>Describi a tu mascota</p>
+
+        <textarea name="Comentario" id="Comentario" cols="30" rows="10" placeholder="Decinos que tan cariñoso es"></textarea>
+        
+        <p>Subi una foto de tu mascota</p>
+
+        <input type="file" name="foto" id="foto" accept="image"" >
+
+        <p>Listo, ahora envia los datos</p>
+
+        <br>
+
+        <img src="./assets/images.jfif" alt="mascota">
+        
+        <br>
+
+        <input type="submit" name="submit" value="Enviar" >
+
+
+
+
+
+
+
+
+
+    
+    
+    
+    
+    </form>
+   </main>
+    
+</body>
+</html>
